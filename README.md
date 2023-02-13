@@ -1,4 +1,10 @@
 # Before using this block
+ 
+This is a fork of the block volume-pipewire. As pactl result messages are
+translated to the language of you system, this blocklet does not work if
+your system language is not english. This fork adapts the script to read
+the spanish translations out of the pactl translated messages and make it
+work in a spanish system without having to change the language.
 
 This is a fork of the block volume-pulseaudio, that supports pipewire,
 pulseaudio, and alsa. This is achieved by using the tool pactl instead of pacmd.
